@@ -14,6 +14,9 @@ function validate() {
         if (url.endsWith('/giphy.gif')) {
             url = url.replace('/giphy.gif', '')
         }
+        if (url.endsWith('#')) {
+            url = url.replace(/#/g, '')
+          }
     }
     else {
         console.log('[!] - URL appears to be invalid.'.red)

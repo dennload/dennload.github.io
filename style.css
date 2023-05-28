@@ -8,6 +8,9 @@
 
 .nav {
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav h1 {
@@ -16,6 +19,12 @@
 }
 .nav h5 {
     cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
 }
 
 main {
